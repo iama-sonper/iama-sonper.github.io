@@ -1,20 +1,29 @@
 html {
 	font-family: consolas;
+	color: #ffffff;
 }
 
 jp {
 	font-family: ms gothic;
 }
 
+#pagetitle {
+	border: 2px solid #00ffff;
+	background: #008080;
+	font-weight: 700;
+	text-align: center;
+	width: 98%;
+}
+
 #gradi {
-	background: rgb(0,255,255);
-	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(0,128,255,1) 100%);
+	background: rgb(0,192,192);
+	background: linear-gradient(90deg, rgba(0,192,192,1) 0%, rgba(0,128,255,1) 100%);
 }
 
 #rectangle {
 	width: 80%;
 	height: 101%;
-	background-color: #c0c0c0c0;
+	background-color: #404040c0;
 	position: absolute;
 	left: 10%;
 	top: -8px;
