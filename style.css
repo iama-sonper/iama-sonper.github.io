@@ -1,0 +1,25 @@
+html {
+	font-family: consolas;
+}
+
+jp {
+	font-family: ms gothic;
+}
+
+#gradi {
+	background: rgb(0,255,255);
+	background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(0,128,255,1) 100%);
+}
+
+#rectangle {
+	width: 80%;
+	height: 101%;
+	background-color: #c0c0c0c0;
+	position: absolute;
+	left: 10%;
+	top: -8px;
+}
+
+a {
+	color: inherit;
+}
