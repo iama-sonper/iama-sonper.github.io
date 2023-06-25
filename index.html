@@ -1,20 +1,31 @@
 <title>iama sonper</title>
+<html id="gradi">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="img/favicon.png">
-<html id="gradi">
+<script>
+
+window.onload = ch;
+window.onhashchange = ch;
+
+function ch() {
+	let c = window.location.hash.split("#")[1];
+	if (c != null) { document.getElementById("content").src = c; }
+}
+</script>
 
 <div id="rectangle"/>
+
 <table style="background: #D4B9FE; color: #000000; width: 100%; text-align: center; height: 10%">
 	<tr>
 		<td colspan=47 title="IT ME"><big>iama sonper</big></td>
 	</tr>
 	<tr>
-		<td><a href="home.html" target="content" title="definitely useful main page">HOME</a></td>
-		<td><a href="work.html" target="content" title="stuff ive made">WORKS</a></td>
-		<td><a href="news.html" target="content" title="THE NEWS    I AM THE NEWS">NEWS</a></td>
-		<td><a href="credit.html" target="content" title="cool people">CREDITS</a></td>
+		<td><a href="#home.html" title="definitely useful main page">HOME</a></td>
+		<td><a href="#work.html" title="stuff ive made">WORKS</a></td>
+		<td><a href="#news.html" title="THE NEWS    I AM THE NEWS">NEWS</a></td>
+		<td><a href="#credit.html" title="cool people">CREDITS</a></td>
 	</tr>
 </table>
 <div style="position: relative; left: 2%">
-	<iframe src="home.html" name="content" noresize frameborder=0 width="98%" height="90%" />
+	<iframe src="home.html" id="content" name="content" noresize frameborder=0 width="98%" height="90%" />
 </div>
