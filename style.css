@@ -32,3 +32,23 @@ jp {
 a {
 	color: inherit;
 }
+
+#work-link {
+	width: 33%;
+	background: #404040c0;
+	display: inline-block;
+	vertical-align: top;
+	padding: 3px;
+}
+
+#work-link-h {
+	background: #202020;
+	text-align: center;
+}
+
+#work-link-dl {
+	background: #ff0080;
+	text-align: center;
+	float: right;
+	padding: 6px;
+}
