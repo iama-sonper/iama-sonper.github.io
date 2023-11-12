@@ -61,3 +61,11 @@ a {
 	width: 98%;
 	height: 86%;
 }
+
+#artbox {
+	overflow: hidden;
+	width: 32%;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+}
